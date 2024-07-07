@@ -1,13 +1,101 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-boxs;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+    background-image: linear-gradient(45deg, rgba(0, 128, 255, 0.575), rgb(152, 235, 178));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 500px;
+    height: auto;
+    border-radius: 20px;
+    padding: 20px;
+    background-image: linear-gradient(45deg, blue, green);
+    box-shadow: 5px 5px 10px rgb(8, 1, 1);
+}
+
+.txt-white {
+    color: white;
+}
+
+.txt-center {
+    text-align: center;
+}
+
+.search-container {
+    margin: 10px 0px;
+    text-align: center;
+}
+
+.search-container input {
+    width: 350px;
+    height: 35px;
+    font-size: 1.3rem;
+    border: none;
+    border-radius: 30px;
+    padding: 5px 20px;
+}
+
+.search-container button {
+    width: 52px;
+    height: 52px;
+    border-radius: 30px;
+    background-color: white;
+    border: none;
+    margin: 0px 5px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.m-icon {
+    color: white;
+    font-size: 7rem;
+}
+
+.icon-container {
+    text-align: center;
+    margin: 30px 0px;
+}
+
+.temp-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.temp-container h1 {
+    font-size: 6rem;
+    font-weight: bolder;
+}
+
+.temp-container p {
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+.other-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 0px;
+    border: 1px solid rgb(146, 194, 228);
+    border-radius: 10px;
+    padding: 10px 0px;
+}
+
+.humidity-value {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.other-container div i {
+    font-size: 2rem;
 }
