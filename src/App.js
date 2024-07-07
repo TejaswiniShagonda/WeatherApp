@@ -8,7 +8,7 @@ function App() {
   const [city, setCity] = useState('')
   const [weatherInfo, setWeatherInfo] = useState(null) 
 
-  const apiKey = 'd5c36a64bb12b7106d8b9ad8760b974f'
+  const apiKey = 'Your API key'
   const apiURL = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`
 
   useEffect(()=>{
